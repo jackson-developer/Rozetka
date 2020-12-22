@@ -1,0 +1,28 @@
+.sub-nav{
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    column-count: 5;
+    column-fill: auto;
+    top: 0;
+    left: 100%;
+    width:auto;
+    height: 100%;
+    background: #151615ed;
+    overflow-x: auto;
+}
+.nav-item:hover{
+    background: #141514;
+}
+.sub-nav li{
+    width: 100%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #eee;
+}
+.dropdown-item:hover{
+    background: #2a2b2a !important;
+    cursor: pointer;
+}

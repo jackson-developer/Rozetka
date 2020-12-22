@@ -1,0 +1,68 @@
+
+<div class=" content">
+  <div class=" row">
+    <div class=" col-12">
+      <div class=" card card-chart">
+        <div class=" card-body">
+          <div class="chart-area">
+            <ngb-carousel
+            [showNavigationArrows]="true" 
+            [showNavigationIndicators]="true"
+            interval="12000"
+            [keyboard]="true"
+            [pauseOnHover]="true"
+            [wrap]="true"
+            [activeId]="'secondSlide'">
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img src="../../../assets/img/28676.jpg" alt="Angular Carousel 1">
+                </div>
+                <div class="carousel-caption">
+                  <h3>Title Goes Here</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </ng-template>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img src="../../../assets/img/1.jpg" alt="Angular Carousel 2">
+                </div>
+                <div class="carousel-caption">
+                  <h3>Title Goes Here</h3>
+                  <p>Consectetur tortor volutpat pretium.</p>
+                </div>
+              </ng-template>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img src="../../../assets/img/28086.jpg" alt="Angular Carousel 1">
+                </div>
+                <div class="carousel-caption">
+                  <h3>Title Goes Here</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </ng-template>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img src="../../../assets/img/28376.jpg" alt="Angular Carousel 2">
+                </div>
+                <div class="carousel-caption">
+                  <h3>Title Goes Here</h3>
+                  <p>Consectetur tortor volutpat pretium.</p>
+                </div>
+              </ng-template>
+            </ngb-carousel>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h2 class="main-goods__heading"><svg height="24" width="24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-main-more"></use></svg><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> More products for selection </font></font></h2>
+  </div>
+  <div class="row">
+    <div class="col-md-3 col-sm-6 col-lg-2">
+      <div class="card">
+        <div class="card-title"></div>
+      </div>
+    </div>
+  </div>
+</div>
